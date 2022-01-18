@@ -29,7 +29,7 @@ Below is the snapshot of the data <br>
     <br>
   
    &nbsp;&nbsp;&nbsp;&nbsp;ii. The trend in the average number of wildfires is varying a lot and is mostly random <br>
-    <image>
+    <image>;
       <br>
 # Feature Engineering 
   &nbsp;&nbsp;&nbsp;&nbsp;i.Features are generated from the weather dataset<br>
@@ -55,7 +55,10 @@ Below is the snapshot of the data <br>
     &nbsp;&nbsp;&nbsp;&nbsp;i.One of the main reasons to choose CAT boost is that it can perform well even if the data is less <br>
     &nbsp;&nbsp;&nbsp;&nbsp; ii.Also, since the month is a categorical variable, using CAT boost can be more beneficial     
 # Results 
-  1.From the analysis, it is clear that Airbnb implemented strategies which makes them unique in responding to the pandemic <br>
-  2.Sentiment dropped after March 2020, but as the company takes remedial steps, sentiment increased over time <br>
-  3.Top positive and negative comments did not change much in pre and post Covid  <br>
-  4.Dirty and Crowded are highlighted negative comments post-Covid which can be suggestion to Airbnb hotels which are having low sentiment scores <br>
+    1. Linear Regression performed much better than the other non linear advanced algorithms
+    2. With increase in pev_max, there is an decrease in the number of wildfires 
+    3. The increase in tp directly corresponds to the increase in the number of wildfires 
+# Future Scope 
+    1. Adding more features which can 
+   
+    
