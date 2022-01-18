@@ -16,7 +16,7 @@
 # Data Sources and Data Dictionary 
   1. Train.csv - This file consists of wildfires frequency along with the date it happened and the reporting unit <br>
 Below is the snapshot of the data <br>
-<image>
+<image>;
 
   3. InyoNationalForest.nc - This file is the weather data which consists of the following attributes <br>
  &nbsp;&nbsp;&nbsp;&nbsp;i.Precipitation<br>
@@ -25,8 +25,9 @@ Below is the snapshot of the data <br>
 Below is the snapshot of the data <br>
 # Data Understanding 
   &nbsp;&nbsp;&nbsp;&nbsp;i. The frequency of wildfires are following a bell shaped distribution <br>
-  <image>
+  <image>;
     <br>
+  
    &nbsp;&nbsp;&nbsp;&nbsp;ii. The trend in the average number of wildfires is varying a lot and is mostly random <br>
     <image>
       <br>
@@ -35,7 +36,7 @@ Below is the snapshot of the data <br>
   &nbsp;&nbsp;&nbsp;&nbsp;ii.It is highly likely to cause the wildfire when the weather conditions are extreme <br>
   &nbsp;&nbsp;&nbsp;&nbsp;iii.Therefore, Features which can capture the edge cases are being generated. Examples of such features are Max, Min and Mean of corresponsing weather variables <br>
   &nbsp;&nbsp;&nbsp;&nbsp;iv.Below is the correlation matrix of the variables in the final dataset <br>
-  <image> 
+  <image> ;
     <br>
 # Model Development
     &nbsp;&nbsp;&nbsp;&nbsp; Model development is an iterative process. The predictor variable is continuous and the following approaches are being tested for prediction modelling 
