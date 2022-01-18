@@ -34,7 +34,7 @@
    Positive words and Negative words <br>
          &nbsp;&nbsp;&nbsp;&nbsp; i.Finding the number of positive words and negative words for every review <br>
           &nbsp;&nbsp;&nbsp;&nbsp;ii.Storing number of positive words in positive and number of negative words in negative <br>
-# Sentiment Score Calculation 
+# Model Development
    The score is calculated using the formula: <br>
           Sentiment score = (#Positive)/(#Positive+#Negative) when #Positive>#Negative <br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  =-(#Negative)/(#Positive+#Negative) when #Positive>#Negative<br>
@@ -45,12 +45,3 @@
   2.Sentiment dropped after March 2020, but as the company takes remedial steps, sentiment increased over time <br>
   3.Top positive and negative comments did not change much in pre and post Covid  <br>
   4.Dirty and Crowded are highlighted negative comments post-Covid which can be suggestion to Airbnb hotels which are having low sentiment scores <br>
-# Tableau Dashboard 
-https://public.tableau.com/app/profile/katiki.nikhil
-
-  
-# Limitations of Score 
-    1.The list of positive words and negative words is limited to the one which is provided as input 
-    2.There are equal weights assigned to each and every word 
-    3.The Analysis wont capture the phrases such as "not good". This sentence has neutral score whereas it is to be tagged as negative 
-  
