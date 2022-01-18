@@ -38,8 +38,21 @@ Below is the snapshot of the data <br>
   <image> 
     <br>
 # Model Development
+    &nbsp;&nbsp;&nbsp;&nbsp; Model development is an iterative process. The predictor variable is continuous and the following approaches are being tested for prediction modelling 
+    &nbsp;&nbsp;&nbsp;&nbsp; i.Linear Regression
+    &nbsp;&nbsp;&nbsp;&nbsp; ii.CAT Boost Regression 
+    &nbsp;&nbsp;&nbsp;&nbsp; iii. Random Forest Regressor 
 ## Linear Regression 
-    
+    &nbsp;&nbsp;&nbsp;&nbsp; i. It is clear from the correlation matrix that most of the variables are auto correlated which violates the assumption of Linear regression
+    &nbsp;&nbsp;&nbsp;&nbsp; ii.Therefore, Variance Inflation factor (Linear relationship between the one independent variable and other independent varibles) is being checked and established a cutoff of 7<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; iii. EVen though, Variables are being removed in every iteration due to multicollinearity, the accuracy of the model isn't varying much <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; iv. The final model can be called as "Parsimonious model" with only Pev_max, month indicator and tp_min variables <br>
+ ## CAT Boost algorithm
+    &nbsp;&nbsp;&nbsp;&nbsp;i.One of the main reasons to choose CAT boost is that it can perform well even if the data is less <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; ii.Also, since the month is a categorical variable, using CAT boost can be more beneficial 
+ ## Random Forest Regressor 
+    &nbsp;&nbsp;&nbsp;&nbsp;i.One of the main reasons to choose CAT boost is that it can perform well even if the data is less <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; ii.Also, since the month is a categorical variable, using CAT boost can be more beneficial     
 # Results 
   1.From the analysis, it is clear that Airbnb implemented strategies which makes them unique in responding to the pandemic <br>
   2.Sentiment dropped after March 2020, but as the company takes remedial steps, sentiment increased over time <br>
