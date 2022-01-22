@@ -65,4 +65,4 @@ Below is the snapshot of the data <br>
     2. Time series forecasting can also be done to predict the number of Wildfires
     
    
-    
+# Thank You!
