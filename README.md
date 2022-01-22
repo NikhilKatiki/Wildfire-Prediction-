@@ -16,7 +16,8 @@
 # Data Sources and Data Dictionary 
   1. Train.csv - This file consists of wildfires frequency along with the date it happened and the reporting unit <br>
 Below is the snapshot of the data <br>
-<image>;
+<img width="406" alt="01" src="https://user-images.githubusercontent.com/89437135/150622564-b7833340-7dba-4069-b970-623b1e1ef88d.png">
+<br>
 
   3. InyoNationalForest.nc - This file is the weather data which consists of the following attributes <br>
  &nbsp;&nbsp;&nbsp;&nbsp;i.Precipitation<br>
@@ -25,18 +26,19 @@ Below is the snapshot of the data <br>
 Below is the snapshot of the data <br>
 # Data Understanding 
   &nbsp;&nbsp;&nbsp;&nbsp;i. The frequency of wildfires are following a bell shaped distribution <br>
-  <image>;
+  <img width="317" alt="02" src="https://user-images.githubusercontent.com/89437135/150622622-70abe374-e296-46b0-9c40-dc9756a84d19.png">
     <br>
   
    &nbsp;&nbsp;&nbsp;&nbsp;ii. The trend in the average number of wildfires is varying a lot and is mostly random <br>
-    <image>;
+    <img width="424" alt="03" src="https://user-images.githubusercontent.com/89437135/150622637-b585312a-1c8a-4d27-b3be-edca123fb802.png">
+    
       <br>
 # Feature Engineering 
   &nbsp;&nbsp;&nbsp;&nbsp;i.Features are generated from the weather dataset<br>
   &nbsp;&nbsp;&nbsp;&nbsp;ii.It is highly likely to cause the wildfire when the weather conditions are extreme <br>
   &nbsp;&nbsp;&nbsp;&nbsp;iii.Therefore, Features which can capture the edge cases are being generated. Examples of such features are Max, Min and Mean of corresponsing weather variables <br>
   &nbsp;&nbsp;&nbsp;&nbsp;iv.Below is the correlation matrix of the variables in the final dataset <br>
-  <image> ;
+  <img width="544" alt="04" src="https://user-images.githubusercontent.com/89437135/150622662-48a838f4-3232-420d-bc4f-1f644bd08191.png">
     <br>
 # Model Development
     &nbsp;&nbsp;&nbsp;&nbsp; Model development is an iterative process. The predictor variable is continuous and the following approaches are being tested for prediction modelling 
