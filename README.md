@@ -48,7 +48,7 @@ Below is the snapshot of the data <br>
 ## Linear Regression 
     i. It is clear from the correlation matrix that most of the variables are auto correlated which violates the assumption of Linear regression
     ii.Therefore, Variance Inflation factor (Linear relationship between the one independent variable and other independent varibles) is being checked and established a cutoff of 7
-    iii. EVen though, Variables are being removed in every iteration due to multicollinearity, the accuracy of the model isn't varying much 
+    iii. Even though, Variables are being removed in every iteration due to multicollinearity, the accuracy of the model isn't varying much 
     iv. The final model can be called as "Parsimonious model" with only Pev_max, month indicator and tp_min variables 
  ## CAT Boost algorithm
     i.One of the main reasons to choose CAT boost is that it can perform well even if the data is less 
