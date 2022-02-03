@@ -63,6 +63,7 @@ Below is the snapshot of the data <br>
 # Future Steps 
     1. More variables which can impact Wildfires can be included in the model 
     2. Time series forecasting can also be done to predict the number of Wildfires
+    3. It will be very interesting to see the real effects of important variables on Wildfires
     
    
 # Thank You!
